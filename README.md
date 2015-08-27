@@ -1,9 +1,10 @@
+> THIS README WAS PUBLISHED ON OPENLEARNING.NETWORK.
+IT IS NOT ALLOWED TO REPUBLISH THIS README.
+THE IMAGES ARE CREATIVE COMMONS.
+EXAMPLES HAVE SEPERATE LICENSE
+
 Drawing flowers in Processing (with matrix transformations)
 ========================
-
-> THIS POST WAS PUBLISHED ON OPENLEARNING.NETWORK      
-IT IS NOT ALLOWED TO REPUBLISH THIS POST
-THE IMAGES ARE CREATIVE COMMONS, PROCESSING SOURCE IS MIT
 
 Ever wanted to draw a flower in Processing? You might think that a simple thing such as a flower must be very easy to draw in Processing? Well it actually is very easy, but not for everyone. In this tutorial you will learn how to draw a beautiful little flower in Processing by using matrix transformations.
 
