@@ -1,6 +1,9 @@
 Drawing flowers in Processing (with matrix transformations)
 ========================
 
+> THIS POST WAS PUBLISHED ON OPENLEARNING.NETWORK      
+IT IS NOT ALLOWED TO REPUBLISH THIS POST
+THE IMAGES ARE CREATIVE COMMONS, PROCESSING SOURCE IS MIT
 
 Ever wanted to draw a flower in Processing? You might think that a simple thing such as a flower must be very easy to draw in Processing? Well it actually is very easy, but not for everyone. In this tutorial you will learn how to draw a beautiful little flower in Processing by using matrix transformations.
 
@@ -9,12 +12,12 @@ Ever wanted to draw a flower in Processing? You might think that a simple thing 
 ## What we want
 ![Flower](http://i.imgur.com/yj4VpW3.png)
 
-We would like to have something like the image above. The colors may be badly chosen, but hey, I'm not an artist. 
+We would like to have something like the image above. The colors may be badly chosen, but hey, I'm not an artist.
 
 ## Prerequirements
 
 * Some Processing and Java knowledge
-* Some math knowledge 
+* Some math knowledge
 * Processing IDE installed on your computing device
 
 ## Let's get started
@@ -41,14 +44,14 @@ void drawAxes(){
    background(255);
    strokeWeight(2);
    background(255);
-   
+
    // Styling of the Y-axes
    stroke(255,0,0);
    line(0,0,0, 100); // Y-axes (red)
    // Styling of the X-axes
    stroke(0,255,0);
    line(0,0,100,0); // X-axes (green)
-   
+
    // Styling of the circle
    stroke(0);
    // An ellipse with the same width and height is a circle
@@ -110,7 +113,7 @@ Knowing how matrix transformations work, we can finally draw our flower:
 `````
 
 void setup(){
-  size(200,200); 
+  size(200,200);
 }
 
 void draw(){
@@ -124,19 +127,19 @@ void draw(){
   pushMatrix();
   // Make the fill color green
   fill(0,255,0);
-  
+
   // Rotate the coordinates system
   rotate(radians(i*60)); // when i = 0; rotate by 0 degrees, when i = 1 rotate by 60 degrees, etc...
-  
+
   // Move the leaf a bit from the center
   translate(10,0);
   // Draw the leave
   ellipse(0,0, 90,40);
   popMatrix();
  }
- 
+
  // Center of the flower
- 
+
  // Make the fill color yellowish
  fill(#F9FA17);
 
